@@ -137,10 +137,6 @@ body {
   background-color: #0056b3;
 }
 
-.UL {
-  list-style-type: square;
-}
-
 
 /* Container for aligning image and text */
 .image-text-wrapper {
@@ -172,6 +168,12 @@ list-style: none; /* Remove default list style */
 margin-bottom: 10px;
 }
 
+.UL {
+  display: inline-block; /* styling the lists */
+  list-style-type: square;
+  text-align: left;
+}
+
 @media (max-width: 768px) {
 /* For smaller screens, stack the image and text */
 .image-text-wrapper {
@@ -185,12 +187,47 @@ margin-bottom: 10px;
 @media screen and (min-width: 768px) and (max-width: 1024px) {
  
 }
+
+#contact-details {
+  padding: 40px;
+  display: flex;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-value {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+.contact-info  {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 /* Footer */
 footer {
   padding: 20px;
   text-align: center;
   background: black;
   color: bisque;
-  position: fixed;
+  position: sticky;
   bottom: 0;
+}
+
+@media (min-width: 768px) {
+  footer {
+    position: absolute;
+  }
 }
