@@ -1,183 +1,196 @@
 /* General Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: bisque;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-  }
-  
-  /* Hero Section */
-    #hero {
-    height: 100vh;
-    background-image: url("C:/Users/Janet/Downloads/spering-html/css/New folder/Kimonda-Janet-Portfolio/Kimonda-Janet-Portfolio/images/darker_background_image.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: bisque;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-content p {
-    font-size: 1.5rem;
-  }
-  
-  .btn {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  
-  /* About Section */
-  #about {
-    padding: 30px;
-    background: rgb(167, 135, 95);
-    text-align: center;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  #about h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  #about p {
-    font-size: 1.2rem;
-    color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  /* Projects Section */
-  #projects {
-    padding: 50px;
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  #projects h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .project-item {
-    background: #eee;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  /* Contact Section */
-  #contact {
-    padding: 15px;
-    background: grey;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  }
+body {
   
-  #contact h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: bisque;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
-  #contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-  }
-  
-  #contact-form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  #contact-form input,
-  #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  #contact-form button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  #contact-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Footer */
-  footer {
-    padding: 20px;
-    text-align: center;
-    background: #333;
-    color: white;
-  }
-  
+}
+
+/* Hero Section */
+  #hero {
+  height: 100vh;
+  background-image: url("darker_background_image.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: bisque;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* About Section */
+#about {
+  padding: 30px;
+  background: rgb(167, 135, 95);
+  text-align: center;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Projects Section */
+#achievements {
+  padding: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-item {
+  background: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 10px;
+  background: grey;
+  text-align: center;
+
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+#contact-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.UL {
+  list-style-type: square;
+}
+
+
 /* Container for aligning image and text */
 .image-text-wrapper {
-  display: flex;
-  align-items: center; /* Vertically align image and text */
-  gap: 20px; /* Space between image and text */
+display: flex;
+align-items: center; /* Vertically align image and text */
+gap: 20px; /* Space between image and text */
 }
 
 .image-container {
-  flex: 1; /* Image will take 1 part of the width */
-  max-width: 300px; /* Set a max-width for the image */
+flex: 1; /* Image will take 1 part of the width */
+max-width: 300px; /* Set a max-width for the image */
 }
 
 .image-container img {
-  width: 100%;
-  height: auto; /* Ensure image scales properly */
-  object-fit: cover;
+width: 100%;
+height: auto; /* Ensure image scales properly */
+object-fit: cover;
 }
 
 .text-container {
-  flex: 2; /* Text will take 2 parts of the width */
+flex: 2; /* Text will take 2 parts of the width */
 }
 
 .text-container ul {
-  list-style: none; /* Remove default list style */
+list-style: none; /* Remove default list style */
 }
 
 .text-container li {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
-  /* For smaller screens, stack the image and text */
-  .image-text-wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
+/* For smaller screens, stack the image and text */
+.image-text-wrapper {
+  flex-direction: column;
+  text-align: center;
+  .sidebar { display: none;
+}
+}
+
+ /* CSS rules for tablet view */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+}
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color: bisque;
+  position: fixed;
+  bottom: 0;
 }
