@@ -55,13 +55,25 @@ body {
 
 /* About Section */
 #about {
-  padding: 30px;
+  
   background: rgb(167, 135, 95);
   text-align: center;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
 }
+
+.column {
+  margin-bottom: 15px;
+} 
+
+#about p {
+  font-size: 16px;
+  line-height: 1.6;
+} 
 
 #about h2 {
   font-size: 2rem;
@@ -90,6 +102,56 @@ body {
   background: #eee;
   padding: 20px;
   margin-bottom: 20px;
+}
+
+/* Section styling */
+#cybershujaa {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Flexbox layout for desktop */
+.content-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* Text content styling */
+.text-content {
+  flex: 2;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.text-content ul {
+  margin: 10px 0;
+}
+
+.text-content ul li {
+  margin-bottom: 10px;
+}
+
+/* Image content styling */
+.image-content {
+  flex: 1;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styling for mobile */
+@media screen and (max-width: 768px) {
+  .content-container {
+      flex-direction: column;
+  }
+
+  .image-content {
+      margin-top: 20px;
+  }
 }
 
 /* Contact Section */
@@ -218,6 +280,7 @@ margin-bottom: 10px;
 
 /* Footer */
 footer {
+  grid-area: footer;
   padding: 20px;
   text-align: center;
   background: black;
